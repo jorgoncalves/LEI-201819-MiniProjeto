@@ -1,0 +1,66 @@
+#div-conteudo-home{
+  position: absolute;
+  left: 16em;
+  top:10em;
+  width: calc(100% - 16em);
+  height: calc(100% - 10em);
+}
+
+.div-header{
+  background: #f5f5f5;
+  margin: 0;
+  padding: 10px 15px;
+  border-bottom: 0.07em solid #ddd;
+  border-top-left-radius: 0.188em;
+  border-top-right-radius: 0.188em;
+}
+.form-conteudo{
+  position: relative;
+  display: table;
+  top: calc(40% - 10em);
+  margin: 0 auto;
+  width: 48%;
+  height: 40%;
+  border: 0.07em solid #ddd;
+  border-radius: 0.188em;
+}
+
+.float-right{
+  float: right;
+}
+.div-dados-form{
+  margin: 1em;
+}
+label{
+  margin-bottom: 0px !important;
+}
+
+.formatacao-comum{
+  border-radius: 0.188em;
+  border: 0.07em solid #ddd;
+  outline: none;
+}
+textarea{
+  height: 100%;
+  width: 100%;
+  resize: none;
+}
+textarea:focus, input:focus{
+  border-radius: 0.188em;
+  outline: none;
+  box-shadow: 0 0 0 0.126em rgba(115, 193, 242, 0.5),
+  0 0 0 0.232em rgba(92, 183, 240,0.5);
+  transition: 0.5s;
+}
+input[type="submit"]{
+  font-size: 12px;
+  margin-top: 0.5em;
+  background-color: white;
+  padding: 5px 10px;
+  transition: background-color 0.5s ease-in-out, box-shadow 0.5s;
+}
+input[type="submit"]:hover{
+  background-color: #f5f5f5;
+  cursor: pointer;
+  transition: 0.5s;
+}

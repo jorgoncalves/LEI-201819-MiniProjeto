@@ -1,0 +1,80 @@
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#div-conteudo-home{
+  position: absolute;
+  left: 16em;
+  top:10em;
+  width: calc(100% - 16em);
+  height: calc(100% - 10em);
+}
+
+.div-header{
+  background: #f5f5f5;
+  padding: 10px 15px;
+  border-bottom: 0.07em solid #ddd;
+  border-top-left-radius: 0.188em;
+  border-top-right-radius: 0.188em;
+}
+.div-header-sub{
+  font-size: 14.5px;
+  text-decoration: underline;
+  text-decoration-color: #999999;
+}
+.form-conteudo{
+  display: inline-block;
+  width: 48%;
+  height: 45%;
+  padding: 0.01em;
+  margin: 1%;
+  border: 0.07em solid #ccc;
+  border-radius: 0.188em;
+}
+
+.float-right{
+  float: right;
+  text-decoration: none;
+}
+.div-dados-form{
+  margin: 1em;
+}
+label{
+  margin-bottom: 0px !important;
+}
+
+input{
+  border:0;
+  outline: none;
+  font-size: 13px !important;
+}
+input:focus{
+  border-radius: 0.188em;
+  outline: none;
+  box-shadow: 0 0 0 0.126em rgba(115, 193, 242, 0.5),
+  0 0 0 0.232em rgba(92, 183, 240,0.5);
+  transition: 0.5s;
+}
+
+.conteudo-formacao{
+  width: 45%;
+  display: inline-block;
+
+}
+#label-adicionar:hover{
+  cursor: pointer;
+}
+
+.meses{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.meses:hover{
+  text-decoration: underline;
+}
+
+input#insert_Titulo, input#insert_Local{
+  border-radius: 0.188em !important;
+  border: 0.07em solid #ccc !important;
+}

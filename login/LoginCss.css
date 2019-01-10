@@ -1,0 +1,104 @@
+body{
+	font-family: sans-serif;
+	font-size: 0.75em;
+}
+#form_login a{
+	font-size: 0.65em;
+	margin-top: 1em;
+	float: right;
+	text-decoration: none;
+}
+#div_central{
+	position: absolute;
+	width: 25em;
+	height: 25em;
+	margin:auto;
+	top: 0px;
+	bottom: 0px;
+	right: 0px;
+	left: 0px;
+	border: 0.07em solid #ddd;
+	border-radius: 0.188em;
+}
+
+#form_login{
+	width: 55%;
+	height: 55%;
+	overflow: visible;
+	margin: auto;
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	bottom: 0px;
+	right: 0px;
+
+}
+#form_login input[type="submit"],input[type="button"]{
+	margin-top: 5px;
+}
+
+#form_login input[type="button"]
+{
+	float: right;
+}
+
+#form_login input[type="text"], #form_login input[type="password"]{
+	width: 160px;
+	display: block;
+	position: relative;
+	box-sizing: border-box;
+	width:100%;
+	border-radius: 0.188em;
+	background: #fff;
+	border: 0.07em solid #ddd;
+	outline:none;
+	padding: 6px;
+	transition: box-shadow 0.5s;
+}
+#form_login input[type="text"]:focus, #form_login input[type="password"]:focus{
+	outline: none;
+	border: 0.07em solid #44adee;
+	box-shadow: 0 0 0 1px rgba(115, 193, 242, 0.5),
+	0 0 0 2px rgba(92, 183, 240,0.5);
+	transition: 0.5s;
+}
+
+#form_login input[type="submit"],input[type="button"]{
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration: none;
+	margin-top: 2px;
+	border: solid 1px transparent;
+	border-radius: 0.188em;
+	padding: 6px;
+	color: #ffffff;
+	background-color: #0080ff;
+	transition: background-color 1s ease-in-out, box-shadow 0.5s;
+
+}
+#form_login input[type="submit"]:hover,input[type="button"]:hover {
+	transition: 0.5s;
+	color: #ffffff;
+	border-color: #0066cc;
+	background-color: #0066cc;
+	cursor: pointer;
+}
+
+#form_login input[type="submit"]:focus,input[type="button"]:focus {
+	outline: none;
+	box-shadow: 0 0 0 1px rgba(115, 193, 242, 0.5),
+  0 0 0 2px rgba(92, 183, 240,0.5);
+}
+
+img#logotipoCss {
+	margin-left: 1em;
+	margin-top: 1em;
+}
+
+#alerta-JS{
+	margin: auto;
+	margin-top: 0.5%;
+	width: 50%;
+	text-align: center !important;
+}

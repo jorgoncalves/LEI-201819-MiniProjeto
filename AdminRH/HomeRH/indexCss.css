@@ -1,0 +1,131 @@
+body{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+#div-conteudo-homeRH{
+  position: absolute;
+  z-index: -1;
+  left: 15.5em;
+  top:10em;
+  width: calc(100% - 15.5em);
+  height: calc(100% - 10em);
+}
+
+#div-live-search{
+  position: absolute;
+  left: 15.5em;
+  top: 7em;
+  width: calc(100% - 15.5em);
+  height: 3em;
+  align-items: center;
+}
+
+#div-live-search input{
+  width: 75%;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  border-radius: 0.188em;
+  background: #fff;
+  border: 0.07em solid #ddd;
+  outline:none;
+  padding: 6px;
+  transition: box-shadow 0.5s;
+}
+
+#div-live-search input:focus{
+  outline: none;
+  border: 0.07em solid #44adee;
+  box-shadow: 0 0 0 1px rgba(115, 193, 242, 0.5),
+  0 0 0 2px rgba(92, 183, 240,0.5);
+  transition: 0.5s;
+}
+
+#div-live-search span{
+  position: absolute !important;
+  top: 0.7em;
+  right: 14%;
+  color: #ccc;
+}
+
+.result p{
+  width: 75%;
+  margin: -0.1em;
+  margin-left: 12.5%;
+  margin-right: 12.5%;
+  padding: 6px;
+  border: 0.07em solid #ddd;
+  border-radius: 0.188em;
+  background: #fff;
+  cursor: pointer;
+}
+.result p:hover{
+  background: #f2f2f2;
+}
+
+/* /////////////////////////////////////////////////////*/
+.div-header{
+  background: #f5f5f5;
+  padding: 10px 15px;
+  border-bottom: 0.07em solid #ddd;
+  border-top-left-radius: 0.188em;
+  border-top-right-radius: 0.188em;
+}
+.div-header-sub{
+  font-size: 14.5px;
+  text-decoration: underline;
+  text-decoration-color: #999999;
+}
+.form-conteudo{
+  display: inline-block;
+  width: 48%;
+  height: 45%;
+  margin: 1%;
+  border: 0.07em solid #ddd;
+  border-radius: 0.188em;
+}
+
+.float-right{
+  float: right;
+  text-decoration: none;
+}
+.div-dados-form{
+  margin: 1em;
+}
+label{
+  margin-bottom: 0px !important;
+}
+
+input{
+  border:0;
+  outline: none;
+}
+input:focus{
+  border-radius: 0.188em;
+  outline: none;
+  box-shadow: 0 0 0 0.126em rgba(115, 193, 242, 0.5),
+  0 0 0 0.232em rgba(92, 183, 240,0.5);
+  transition: 0.5s;
+}
+
+.conteudo-formacao{
+  width: 45%;
+  display: inline-block;
+
+}
+
+.meses{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.meses:hover{
+  text-decoration: underline;
+}
+
+input#insert_Titulo, input#insert_Local{
+  border-radius: 0.188em !important;
+  border: 0.07em solid #ccc !important;
+}

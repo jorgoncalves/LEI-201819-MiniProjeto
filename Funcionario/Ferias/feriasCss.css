@@ -1,0 +1,19 @@
+#div-conteudo-home{
+  position: absolute;
+  left: 16em;
+  top:10em;
+  width: calc(100% - 16em);
+  height: calc(100% - 10em);
+}
+.form-conteudo{
+  position: relative;
+  display: table;
+  top: calc(40% - 15em);
+  margin: 0 auto;
+  border: none;
+  border-radius: 0.188em;
+}
+
+#calendarContainer1{
+  background-color: #f5f5f5 !important;
+}
